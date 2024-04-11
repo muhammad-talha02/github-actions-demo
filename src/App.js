@@ -6,8 +6,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h2>First Project Using Github Actions</h2>
+        <h2>
+        First Project Using Github Actions</h2>
         <p>
+        <h3>Env: {process.env.ENV_TEXT|| "No Env"}</h3>
           Hey I am doing Deployment using GitHub Actions
         </p>
        
